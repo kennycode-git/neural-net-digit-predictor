@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(test:*)",
+      "Bash(git init:*)",
+      "Bash(git lfs:*)",
+      "Bash(npx:*)",
+      "Bash(npm install:*)",
+      "Bash(python -m pytest:*)",
+      "Bash(pip:*)",
+      "Bash(py:*)",
+      "Bash(py -m pip:*)",
+      "Bash(conda env list:*)",
+      "Bash(reg query:*)",
+      "Bash(powershell -Command \"Get-ItemProperty ''HKLM:\\\\SOFTWARE\\\\Microsoft\\\\VisualStudio\\\\14.0\\\\VC\\\\Runtimes\\\\x64'' -ErrorAction SilentlyContinue | Select-Object Version; Get-ItemProperty ''HKLM:\\\\SOFTWARE\\\\WOW6432Node\\\\Microsoft\\\\VisualStudio\\\\14.0\\\\VC\\\\Runtimes\\\\x64'' -ErrorAction SilentlyContinue | Select-Object Version\")",
+      "Bash(powershell -Command \"Get-ItemProperty ''HKLM:\\\\SOFTWARE\\\\Microsoft\\\\VisualStudio\\\\14.0\\\\VC\\\\Runtimes\\\\x64'' | Select-Object Version\")",
+      "Bash(powershell -Command \"Invoke-WebRequest -Uri ''https://aka.ms/vs/17/release/vc_redist.x64.exe'' -OutFile ''$env:TEMP\\\\vc_redist.x64.exe''; Start-Process ''$env:TEMP\\\\vc_redist.x64.exe'' -ArgumentList ''/install'',''/quiet'',''/norestart'' -Wait -Verb RunAs; Write-Host ''Done''\")",
+      "Bash(powershell -Command \"& { $out = Join-Path $env:TEMP ''vc_redist.x64.exe''; Invoke-WebRequest -Uri ''https://aka.ms/vs/17/release/vc_redist.x64.exe'' -OutFile $out -UseBasicParsing; Write-Host ''Downloaded to'' $out; Start-Process $out -ArgumentList ''/install'',''/quiet'',''/norestart'' -Wait -Verb RunAs; Write-Host ''Install complete'' }\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\leek\\\\AppData\\\\Local\\\\Temp\\\\install_vcredist.ps1\")",
+      "Bash(ls \"C:\\\\Documents\\\\Personal Projects\\\\nn_digit_prediction\\\\frontend\\\\public\\\\artifacts\"\" 2>/dev/null || dir \"C:DocumentsPersonal Projectsnn_digit_predictionfrontendpublicartifacts \")",
+      "Bash(npm run dev:*)",
+      "Bash(netstat:*)",
+      "Bash(python:*)"
+    ]
+  }
+}

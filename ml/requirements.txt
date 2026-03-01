@@ -1,0 +1,12 @@
+torch>=2.2
+torchvision>=0.17
+onnx>=1.16
+onnxruntime>=1.18
+captum>=0.7
+scikit-learn>=1.4
+Pillow>=10
+numpy>=1.26
+matplotlib>=3.8
+pytest>=8
+ruff>=0.4
+scipy>=1.13

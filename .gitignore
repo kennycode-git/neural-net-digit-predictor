@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# ML outputs (non-LFS; LFS-tracked files are kept)
+ml/output/
+!ml/output/.gitkeep
+
+# Node
+node_modules/
+.next/
+frontend/.env*
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# General
+.DS_Store
+*.log
+*.swp
+*.swo
+Thumbs.db

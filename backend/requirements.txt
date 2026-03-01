@@ -1,0 +1,9 @@
+fastapi>=0.111
+uvicorn[standard]>=0.29
+torch>=2.2
+captum>=0.7
+Pillow>=10
+slowapi>=0.1
+pydantic>=2
+numpy>=1.26
+matplotlib>=3.8
