@@ -23,7 +23,7 @@ import shutil
 
 import numpy as np
 import torch
-from PIL import Image, ImageFilter
+from PIL import Image
 from scipy.ndimage import binary_erosion
 from torchvision import datasets, transforms
 

@@ -2,7 +2,6 @@
 Tests for ml/preprocess.py — verifies shape, dtype, and value range.
 """
 import numpy as np
-import pytest
 from PIL import Image, ImageDraw
 
 import sys
