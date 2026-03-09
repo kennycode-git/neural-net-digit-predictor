@@ -1,9 +1,6 @@
 # Digit-Net Visual Lab
 
-> **[Live demo placeholder]** · [Model Card](#model-card)
-
-<!-- GIF placeholder: draw → predict → heatmap comparison -->
-<!-- ![demo](docs/demo.gif) -->
+![Demo](docs/demo.gif)
 
 **Browser-native MNIST digit classification with explainability.**
 
