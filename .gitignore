@@ -28,3 +28,8 @@ frontend/.env.production.local
 *.swp
 *.swo
 Thumbs.db
+
+# Extra
+
+.claude/
+CLAUDE.md
